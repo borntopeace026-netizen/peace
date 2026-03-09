@@ -1,55 +1,115 @@
 # NOWAR / $PEACE
 
-## Overview
-NOWAR is a minimalist meme coin project built around one of the most recognizable symbols in the world: peace.
+## Introduction
 
-$PEACE is designed as a cultural token first:
-- simple
-- symbolic
-- viral
-- community-driven
+NOWAR is a minimalist meme coin project built around one of the most recognizable symbols in human history: the peace symbol.
 
-## Core Message
+The project is intentionally simple.
+
+No complex mechanics.
+No promises of financial innovation.
+
+Just a clear message:
+
 Give Peace a Chance.
 
-## Brand Thesis
-Most meme coins compete on noise.
-$PEACE competes on simplicity.
+---
 
-A universal symbol.
-A universal message.
-A format built for memes, posters, stickers, avatars, and social media.
+## Vision
 
-## Mission
-To build a recognizable internet-native peace symbol on Solana.
+The internet spreads memes faster than any traditional message.
 
-## Humanitarian Position
-$PEACE supports awareness around humanitarian relief for civilians affected by war.
+$PEACE uses the language of the internet — symbols, memes, and culture — to spread a simple idea:
 
-The project encourages direct donations to the International Committee of the Red Cross (ICRC).
+Peace should be louder than war.
 
-## Token Identity
-- Name: NOWAR
-- Ticker: PEACE
-- Chain: Solana
-- Symbol: ☮
+---
 
-## Website
-Minimal, black and white, direct.
+## Concept
 
-## Community Principles
-- no hate
-- no glorification of war
-- no false promises
-- simple messaging
-- viral distribution through culture
+NOWAR is not trying to reinvent cryptocurrency.
 
-## Roadmap
-1. Launch identity
-2. Launch community channels
-3. Launch token
-4. Publish memes, posters, and social assets
-5. Expand awareness campaigns
+Instead, it focuses on three elements:
 
-## Disclaimer
-$PEACE is a meme coin. It is not an investment product, security, or promise of profit.
+• Symbol  
+• Message  
+• Community
+
+The peace symbol is universally recognized.  
+$PEACE transforms that symbol into a digital meme asset.
+
+---
+
+## Manifesto
+
+War is old.
+
+Peace is the future.
+
+$PEACE is a symbol, a meme, and a movement.
+
+---
+
+## Why a Meme Coin
+
+Memes travel faster than traditional communication.
+
+Bitcoin started as an idea.  
+Dogecoin started as a meme.
+
+$PEACE is both:
+
+a symbol and a message.
+
+---
+
+## Charity
+
+The project encourages donations to organizations that help victims of war and humanitarian crises.
+
+Example organizations include:
+
+International Committee of the Red Cross (ICRC)  
+https://www.icrc.org
+
+Donations are voluntary and independent of the token.
+
+---
+
+## Token
+
+Token Name: PEACE  
+Ticker: $PEACE  
+Network: Solana  
+
+Contract Address: Coming Soon
+
+---
+
+## Transparency
+
+The project is intentionally minimal.
+
+All files are publicly available on GitHub.
+
+Website and documentation are open.
+
+---
+
+## Community
+
+The project lives through the community.
+
+Links:
+
+X  
+https://x.com/borntopeace026
+
+Telegram  
+https://t.me/peaceinsolana
+
+---
+
+## Final Message
+
+Give Peace a Chance.
