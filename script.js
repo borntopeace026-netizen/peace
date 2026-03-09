@@ -5,32 +5,28 @@ document.addEventListener("DOMContentLoaded", function () {
   const easterEgg = document.getElementById("easterEgg");
 
   if (copyBtn && contractAddress) {
-    copyBtn.addEventListener("click", async function () {
-      try {
-        await navigator.clipboard.writeText(contractAddress.textContent.trim());
-        copyBtn.textContent = "COPIED";
+    copyBtn.addEventListener("click", function () {
+      navigator.clipboard.writeText(contractAddress.textContent.trim());
+      copyBtn.textContent = "COPIED";
 
-        setTimeout(function () {
-          copyBtn.textContent = "COPY";
-        }, 1500);
-      } catch (error) {
-        copyBtn.textContent = "ERROR";
-      }
+      setTimeout(function () {
+        copyBtn.textContent = "COPY";
+      }, 1500);
     });
   }
 
-  let clicks = 0;
+  let clickCount = 0;
 
   if (logo && easterEgg) {
     logo.addEventListener("click", function () {
-      clicks += 1;
+      clickCount += 1;
 
-      if (clicks >= 5) {
+      if (clickCount === 5) {
         easterEgg.classList.add("show");
 
         setTimeout(function () {
           easterEgg.classList.remove("show");
-          clicks = 0;
+          clickCount = 0;
         }, 4000);
       }
     });
