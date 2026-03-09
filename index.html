@@ -1,190 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>NOWAR | $PEACE</title>
-
-<meta name="description" content="NOWAR. $PEACE on Solana. Give Peace a Chance.">
-
-<style>
-
-body{
-background:white;
-color:black;
-font-family:Arial, Helvetica, sans-serif;
-text-align:center;
-margin:0;
-padding:0;
-}
-
-.container{
-max-width:700px;
-margin:auto;
-padding-top:100px;
-}
-
-.logo{
-width:180px;
-margin-bottom:40px;
-}
-
-h1{
-font-size:60px;
-letter-spacing:4px;
-margin:0;
-}
-
-.subtitle{
-font-size:18px;
-color:#444;
-margin-top:10px;
-}
-
-.slogan{
-font-size:32px;
-margin-top:40px;
-font-weight:bold;
-letter-spacing:2px;
-}
-
-.buttons{
-margin-top:40px;
-}
-
-.button{
-display:inline-block;
-padding:12px 22px;
-margin:10px;
-border:1px solid black;
-text-decoration:none;
-font-weight:bold;
-color:white;
-background:black;
-}
-
-.button.alt{
-background:white;
-color:black;
-}
-
-.section{
-margin-top:60px;
-}
-
-.ca{
-margin-top:20px;
-padding:12px;
-background:#f5f5f5;
-display:inline-block;
-}
-
-.links{
-margin-top:40px;
-}
-
-.links a{
-margin:0 15px;
-text-decoration:none;
-font-weight:bold;
-color:black;
-}
-
-.footer{
-margin-top:80px;
-font-size:14px;
-color:#666;
-}
-
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOWAR | $PEACE</title>
+  <meta
+    name="description"
+    content="NOWAR. $PEACE on Solana. Give Peace a Chance."
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <main class="container">
+    <img src="-y0mvlp.jpg" class="logo" id="logo" alt="PEACE logo" />
 
-<div class="container">
+    <h1>NOWAR</h1>
 
-<img src="-y0mvlp.jpg" class="logo">
+    <p class="subtitle">$PEACE on Solana</p>
 
-<h1>NOWAR</h1>
+    <p class="slogan">GIVE PEACE A CHANCE.</p>
 
-<div class="subtitle">
-$PEACE on Solana
-</div>
+    <section class="counter-box">
+      <div class="counter-label">HOLDERS</div>
+      <div class="counter-number" id="holdersCount">128</div>
+    </section>
 
-<div class="slogan">
-GIVE PEACE A CHANCE.
-</div>
+    <section class="buttons">
+      <a href="#" class="button">BUY $PEACE</a>
+      <a
+        href="https://www.icrc.org/en/donate"
+        class="button alt"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DONATE
+      </a>
+    </section>
 
-<div class="buttons">
+    <section class="section">
+      <h3>CONTRACT ADDRESS</h3>
 
-<a href="#" class="button">
-BUY $PEACE
-</a>
+      <div class="ca-row">
+        <div class="ca" id="contractAddress">COMING_SOON</div>
+        <button id="copyBtn" class="copy-btn">COPY</button>
+      </div>
+    </section>
 
-<a href="https://www.icrc.org/en/donate" class="button alt" target="_blank">
-DONATE
-</a>
+    <section class="section">
+      <h3>MANIFESTO</h3>
+      <p>War is old.</p>
+      <p>Peace is viral.</p>
+      <p>$PEACE is a meme, a symbol, and a statement.</p>
+    </section>
 
-</div>
+    <section class="section">
+      <h3>SOUNDTRACK INSPIRATION</h3>
+      <p>Give Peace a Chance — John Lennon</p>
+      <p class="small">Play externally via official embed.</p>
 
-<div class="section">
+      <div class="audio-wrap">
+        <iframe
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/track/0yLfXULLuRt4MFE1K8kidC?utm_source=generator"
+          width="100%"
+          height="152"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+    </section>
 
-<h3>CONTRACT ADDRESS</h3>
+    <section class="section easter-message" id="easterEgg">
+      There is always another way.
+    </section>
 
-<div class="ca">
-COMING_SOON
-</div>
+    <section class="links">
+      <a
+        href="https://x.com/borntopeace026"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        X
+      </a>
 
-</div>
+      <a
+        href="https://t.me/peaceinsolana"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Telegram
+      </a>
 
-<div class="section">
+      <a href="WHITEPAPER.md">Whitepaper</a>
+    </section>
 
-<h3>MANIFESTO</h3>
+    <footer class="footer">
+      NOWAR • $PEACE
+    </footer>
+  </main>
 
-<p>War is old.</p>
-
-<p>Peace is viral.</p>
-
-<p>$PEACE is a meme, a symbol, and a statement.</p>
-
-</div>
-
-<div class="section">
-
-<h3>SOUNDTRACK INSPIRATION</h3>
-
-<p>Give Peace a Chance — John Lennon</p>
-
-<a href="#" class="button alt">
-LISTEN
-</a>
-
-</div>
-
-<div class="links">
-
-<a href="#">X</a>
-
-<a href="#">Telegram</a>
-
-<a href="#">GitHub</a>
-
-<a href="WHITEPAPER.md">Whitepaper</a>
-
-</div>
-
-<div class="footer">
-
-NOWAR • $PEACE
-
-</div>
-
-</div>
-
+  <script src="script.js"></script>
 </body>
-
-  </html>
+</html>
