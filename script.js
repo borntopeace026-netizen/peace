@@ -16,18 +16,28 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   let clickCount = 0;
+  let resetTimer = null;
 
   if (logo && easterEgg) {
     logo.addEventListener("click", function () {
       clickCount += 1;
 
-      if (clickCount === 5) {
+      if (resetTimer) {
+        clearTimeout(resetTimer);
+      }
+
+      resetTimer = setTimeout(function () {
+        clickCount = 0;
+      }, 2000);
+
+      if (clickCount >= 3) {
         easterEgg.classList.add("show");
 
         setTimeout(function () {
           easterEgg.classList.remove("show");
-          clickCount = 0;
-        }, 4000);
+        }, 3000);
+
+        clickCount = 0;
       }
     });
   }
