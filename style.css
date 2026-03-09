@@ -63,6 +63,10 @@ h1 {
   flex-wrap: wrap;
 }
 
+.small-buttons {
+  margin-top: 24px;
+}
+
 .button {
   display: inline-block;
   padding: 12px 22px;
@@ -133,16 +137,12 @@ h1 {
   font-size: 14px;
 }
 
-.youtube {
-  max-width: 560px;
-  margin: 20px auto 0;
-}
-
 .easter-message {
   display: none;
-  font-size: 22px;
+  margin-top: 40px;
+  font-size: 24px;
   font-weight: 700;
-  margin-top: 54px;
+  letter-spacing: 2px;
 }
 
 .easter-message.show {
@@ -197,4 +197,4 @@ h1 {
     display: inline-block;
     margin: 8px 10px;
   }
-}
+  }
