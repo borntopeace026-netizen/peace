@@ -55,28 +55,16 @@ h1 {
   letter-spacing: 2px;
 }
 
-.counter-box {
-  margin-top: 40px;
-}
-
-.counter-label {
-  font-size: 13px;
-  color: #666666;
-  letter-spacing: 2px;
-}
-
-.counter-number {
-  margin-top: 8px;
-  font-size: 52px;
-  font-weight: 700;
-}
-
 .buttons {
   margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 14px;
   flex-wrap: wrap;
+}
+
+.small-buttons {
+  margin-top: 24px;
 }
 
 .button {
@@ -140,11 +128,6 @@ h1 {
   cursor: pointer;
 }
 
-.audio-wrap {
-  max-width: 520px;
-  margin: 20px auto 0;
-}
-
 .small {
   color: #666666;
   font-size: 14px;
@@ -199,10 +182,6 @@ h1 {
   .slogan {
     font-size: 22px;
     line-height: 1.3;
-  }
-
-  .counter-number {
-    font-size: 42px;
   }
 
   .section p {
