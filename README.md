@@ -1,18 +1,32 @@
 # NOWAR / $PEACE
 
-Minimal website and project files for the NOWAR meme coin on Solana.
-
-## Files
-- index.html
-- style.css
-- script.js
-- WHITEPAPER.md
-- logo.png
+NOWAR is a minimalist meme coin project built around one of the most recognizable symbols in the world: peace.
 
 ## Message
+
 Give Peace a Chance.
 
+## Manifesto
+
+- War is old.
+- Peace is the future.
+- $PEACE is a symbol, a meme, and a movement.
+
 ## Links
-- X: coming soon
-- Telegram: coming soon
-- Contract Address: coming soon
+
+- Website: https://borntopeace026-netizen.github.io/peace/
+- X: https://x.com/borntopeace026
+- Telegram: https://t.me/peaceinsolana
+- Whitepaper: ./WHITEPAPER.md
+
+## Files
+
+- `index.html`
+- `style.css`
+- `script.js`
+- `WHITEPAPER.md`
+
+## Notes
+
+- Contract address: coming soon
+- Buy link: coming soon
