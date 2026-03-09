@@ -26,13 +26,27 @@ body {
   width: 180px;
   max-width: 60vw;
   display: block;
-  margin: 0 auto 36px;
+  margin: 0 auto 20px;
   cursor: pointer;
   transition: transform 0.15s ease;
 }
 
 .logo:active {
   transform: scale(0.98);
+}
+
+.easter-message {
+  min-height: 28px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.easter-message.show {
+  opacity: 1;
 }
 
 h1 {
@@ -137,18 +151,6 @@ h1 {
   font-size: 14px;
 }
 
-.easter-message {
-  display: none;
-  margin-top: 40px;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.easter-message.show {
-  display: block;
-}
-
 .links {
   margin-top: 54px;
 }
@@ -196,5 +198,9 @@ h1 {
   .links a {
     display: inline-block;
     margin: 8px 10px;
+  }
+
+  .easter-message {
+    font-size: 18px;
   }
   }
