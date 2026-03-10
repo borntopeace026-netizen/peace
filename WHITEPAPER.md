@@ -82,7 +82,9 @@ Token Name: PEACE
 Ticker: $PEACE  
 Network: Solana  
 
-Contract Address: Coming Soon
+Contract Address: 391odFmFwcLvUQhwPfRsAM7UWpzcsQaHpNLTFeJdpump
+
+Buy: https://join.pump.fun/HSag/qz12i3wp
 
 ---
 
