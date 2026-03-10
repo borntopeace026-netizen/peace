@@ -28,5 +28,5 @@ Give Peace a Chance.
 
 ## Notes
 
-- Contract address: coming soon
-- Buy link: coming soon
+- Contract address: 391odFmFwcLvUQhwPfRsAM7UWpzcsQaHpNLTFeJdpump
+- Buy link: https://join.pump.fun/HSag/qz12i3wp
